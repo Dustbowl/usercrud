@@ -15,9 +15,9 @@ public class UserscrudApplication {
 		SpringApplication.run(UserscrudApplication.class, args);
 		
 		
-		ConfigurableApplicationContext context = SpringApplication.run(UserscrudApplication.class, args); 
+		//ConfigurableApplicationContext context = SpringApplication.run(UserscrudApplication.class, args); 
 		
-		context.getBean(Post.class);
+		//context.getBean(Post.class);
 		
 	}
 
