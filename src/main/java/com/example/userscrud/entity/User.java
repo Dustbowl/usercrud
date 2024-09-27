@@ -18,7 +18,6 @@ import lombok.RequiredArgsConstructor;
 
 @Entity
 @NoArgsConstructor
-@RequiredArgsConstructor
 public class User {
 	
 	@Id
