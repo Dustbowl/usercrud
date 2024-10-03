@@ -27,8 +27,6 @@ services:
       - springapimysql-net  
     environment:
       MYSQL_DATABASE: users
-      MYSQL_USER: root
-      MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: password
 networks:
   springapimysql-net:
